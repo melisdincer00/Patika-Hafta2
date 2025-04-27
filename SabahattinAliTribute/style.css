@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f4f0;
+  color: #333;
+}
+.big-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem; 
+  margin-bottom: 10px;
+  color: #1e007a;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Navigasyon */
+header nav {
+  background-color: #1c0988;
+  padding: 10px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Kartlar */
+.card {
+  background: white;
+  margin: 50px auto;
+  padding: 40px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Yazar Fotoğrafı */
+.author-image {
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Vurgulu Söz */
+.quote-highlight {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #1c0988;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+/* Başlık Altı Çizgisi */
+.section-line {
+  width: 60px;
+  height: 3px;
+  background-color:#1c0988;
+  margin: 20px auto;
+  border-radius: 3px;
+}
+
+/* Kitaplar Listesi */
+.books-list {
+  list-style: none;
+  padding: 0;
+}
+
+.books-list li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Kitap Galeri */
+.book-gallery {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book-img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  background-color: #1c0988;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
