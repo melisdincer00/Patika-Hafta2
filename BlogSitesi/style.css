@@ -1,0 +1,147 @@
+/* Genel Ayarlar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Üst Menü */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Ana İçerik */
+main {
+  flex: 1;
+  padding: 40px 80px; /* Daha geniş içerik alanı */
+}
+
+/* "Son Gönderiler" Başlığı */
+main h2 {
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Gönderiler Alanı */
+.posts {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Her Bir Kart */
+.post-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+  text-align: center;
+  width: 550px; 
+  transition: transform 0.3s;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-card img {
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.post-card h3 a {
+  text-decoration: none;
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.post-card p {
+  margin-top: 15px;
+  color: #666;
+  font-size: 16px;
+}
+/* Blog Gönderisi Sayfası İçeriği */
+.post-container {
+  background-color: white;
+  width: 100%;
+  margin: 40px 0;
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+.post-image {
+  width: 20%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.post-container h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.post-container p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  margin-top: 40px;
+}
